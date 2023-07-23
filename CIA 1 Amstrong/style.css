@@ -1,0 +1,49 @@
+body
+{
+    background-image: url(amstrong.webp);
+    background-repeat: no-repeat;
+    background-size: 1750px 1000px;
+}
+h1
+{
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(51, 32, 21);
+}
+.normal
+{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.algorithm
+{
+    background-color: blanchedalmond;
+    text-align: left;
+    margin-right: 1200px;
+    text-align: left;
+
+}
+.size
+{
+    font-size: larger;
+    color: rgb(51, 32, 21);
+    margin-left: 100px;   
+}
+.forms
+{
+    text-align: center;
+}
+button
+{
+    height: 40px;
+    width: 120px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:rgb(51, 32, 21) ;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amstrong number</title>
+</head>
+<body>
+    <h1>'N' digit Armstrong Number Checker</h1>
+
+    <p class="normal">An Armstrong number is a number that is sum of its own digits each raised to the power of number of digits is equal to the number itself.</p>
+    <form id="amstrong" class="forms">
+        <!-- <label for="numberIp" class="primary"><b>Enter a positive integer</b> </label> -->
+        <!-- <input type="number" id="numberIp" name="numberIp" required> -->
+        <button type="submit" onclick="fun()">Click here</button>
+    </form>
+    <p id="para"></p>
+    <p class="algorithm">
+        <b class="size">Algorithm</b><br>
+        <i>Input:</i> Read a number with 'n' digits <br>
+        <i>Output:</i> Check if the number is <i>Amstrong</i> or not<br><br>
+        <i>num_of_digits = 0</i><br>
+        <i>sum = 0</i><br>
+        <i>temp = number</i><br><br>
+        <b>if </b>&nbsp; number &nbsp; < &nbsp; 0 <b>&nbsp;return</b>&nbsp; false<br>
+        <i>num_of_digits = num_of_digits + 1</i><br>
+         number = number <b>div</b> 10<br>
+         number = temp <br>
+         <b>if </b>&nbsp;number &nbsp; < &nbsp;  0 <b>&nbsp;return</b>&nbsp; false<br>
+         remainder = number mod 10 <br>
+         sum = sum + remainder<sup> num_of_digits</sup><br>
+         number = number div 10<br><br>
+         <b>if</b> sum == temp &emsp;<br>
+         <b>print</b> Amstrong number<br>
+         <b>else</b><br><b>  print</b> Not Amstrong number<br>
+    </p>
+
+
+    
+</body>
+</html>

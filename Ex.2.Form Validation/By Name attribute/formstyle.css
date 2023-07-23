@@ -1,0 +1,38 @@
+.form-tag {
+    background-color: rgb(238, 238, 238);
+    color: rgb(46, 68, 197);
+    text-align: center;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 80px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-style: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+}
+
+body {
+    background-image: url(reg.jpg);
+}
+
+input {
+    margin-top: 0px;
+    padding: 6px;
+    height: 30px;
+    width: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border-color: antiquewhite;
+}
+
+label {
+    font-size: large;
+
+}
+
+.form-tag label {
+    margin-bottom: 5px;
+    /* Reduce space between labels and input elements */
+}
